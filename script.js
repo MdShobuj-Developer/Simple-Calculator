@@ -4,7 +4,6 @@ const buttons = document.querySelectorAll('.button');
 Array.from(buttons).forEach((value)=>{
 value.addEventListener('click',()=>{
     let cal = showResult.innerHTML;
-    console.log(cal);
     if(value.value == "AC"){
         showResult.innerHTML="";
     }
